@@ -1,0 +1,57 @@
+:root {
+  --main-color: #dfd3c3;
+  --second-color: #c7b198;
+  --third-color: #f0ece2;
+  --fourth-color: #596e79;
+}
+body {
+  background-color: var(--third-color);
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: 30px;
+}
+p {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+button {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+.about {
+  background-color: var(--third-color);
+  border: solid 0.5px var(--main-color);
+}
+.about:hover {
+  background-color: var(--main-color);
+  border: solid 0.5px var(--third-color);
+}
+.contact {
+  background-color: var(--main-color);
+  border: solid 0.5px var(--main-color);
+}
+.contact:hover {
+  background-color: var(--third-color);
+  border: solid 0.5px var(--main-color);
+}
+a {
+  text-decoration: none;
+  color: var(--fourth-color);
+  font-size: 15px;
+}
